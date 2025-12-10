@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>salary</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>salary Estimator</h1>
+        <form name="sal_form" onsubmit="return myFunction()">
+            <table>
+                <tr>
+                    <td><labe>Name:</labe></td>
+                    <td><input type="text" name="fname" placeholder="your name" oninput=" validname() " onmouseleave=" validname() "></td>
+                    <td></td>
+                </tr>
+    
+                <tr> 
+                    <td><labe>working hours :</labe></td> 
+                    <td><input type="text" name="hours" placeholder="hours number" oninput=" validnbhours() " onmouseleave="validnbhours()"></td>
+                    <td></td>
+
+                </tr>
+    
+                <tr>
+                    <td><labe>Title :</labe></td>
+                    <td><select name="Title">
+                        <option value="select title">select title</option>
+                        <option value="ENG">ENG</option>
+                        <option value="ACC">ACC</option>
+                        <option value="worker">worker</option>
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+    
+                <tr>
+                    <td><labe>Status :</labe></td>
+                    <td><input type="radio" name="single" id="RS" value="single"> Single
+                        <input type="radio" name="single" id="RM" value="married"> married
+                    </td>
+                    <td></td>
+                </tr>
+    
+                <tr>
+                    <td><button onclick=" calculate() ">calculate</button></td>
+                    <td><input type="text"  id="ra" placeholder="Result"></td>
+                    <td><button onclick="Reload()">Reload Page</button></td>
+                </tr>
+            </table>
+    
+        </form>
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,62 @@
+#container{
+    width: 55%;
+    background-color: blue;
+    margin: 100px auto;/*100 top wbutom auto left rigth auto center*/
+    padding: 10px;
+    
+    
+    
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+form{
+    text-align: center;
+    font-family: calibri;
+    font-size: 20px;
+    border: 3px solid black;
+    width: 90%px;
+    margin: 20px auto;
+    padding: 20px;
+}
+input[type="text"]{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+td{
+    padding:10px;
+    
+}
+td:first-child{
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+td select{
+    width: 210px;
+    font-size: 25px;
+}
+input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+   
+    
+}
+td button{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow:0 3px 0 3px black;
+}
+body{
+    background-color: black;
+}
+td:last-child{
+    padding-left: 150px;
+    
+}
